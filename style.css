@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    overflow-x: hidden;
+}
+#main{
+    width: 100vw;
+    height: 100%;
+    color: #fff;
+   
+}
+#main>img{
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    height: 80vh;
+    width: 30vw;
+}
+#main h1{
+    position: absolute;
+    top: 30%;
+    left: 11%;
+    font-size: 60px;
+    font-family: gilroy;
+    font-weight: 500;
+}
+#main #part1{
+    color: #fff;
+    position: absolute;
+    top: 43%;
+    left: 14%;
+    text-align: center;
+    font-family: cursive;
+    font-weight: 100;
+    font-size: 12px;
+}
+#main #part2{
+    position: absolute;
+    top: 100%;
+    left: 11%;
+    font-family: cursive;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 20px;
+}
+
